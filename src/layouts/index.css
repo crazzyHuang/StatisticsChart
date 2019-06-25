@@ -1,0 +1,8 @@
+
+.normal {
+  /*font-family: Georgia, sans-serif;*/
+  background: url("../assets/bg-dot.png")  repeat;
+  background-size: 32px;
+  height: 100%;
+}
+

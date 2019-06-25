@@ -1,0 +1,8 @@
+.title{
+  height: 2rem;
+  background: rgba(15, 70, 78, 0.85);
+  text-align: center;
+  border: rgba(16, 113, 128, 0.92) 1px solid;
+  color: #0df7dc;
+  line-height: 2rem;
+}

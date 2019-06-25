@@ -1,0 +1,41 @@
+.footerContainer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.footer{
+  height: 1.8rem;
+  background: rgba(15, 70, 78, 0.85);
+  text-align: center;
+  color: white;
+  font-size: 1.2rem;
+  line-height: 2.4rem;
+}
+.timer{
+  width: 400px;
+  margin: auto;
+  height: 1.2rem;
+  color: #0df7dc;
+  background: rgba(15, 70, 78, 0.85);
+  position: relative;
+  text-align: center;
+  font-size: 0.8rem;
+}
+.timer:after{
+  content: '';
+  left: -2rem;
+  width: 0;
+  height: 0;
+  border-bottom: 1.2rem solid  rgba(15, 70, 78, 0.85);
+  border-left: 2rem solid transparent;
+  position: absolute
+}
+.timer:before{
+  content: '';
+  right: -2rem;
+  width: 0;
+  height: 0;
+  border-bottom: 1.2rem solid  rgba(15, 70, 78, 0.85);
+  border-right: 2rem solid transparent;
+  position: absolute;
+}

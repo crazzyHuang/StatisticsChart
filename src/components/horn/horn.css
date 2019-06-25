@@ -1,0 +1,35 @@
+.horn {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: rgba(16, 113, 128, 0.92) 1px solid;
+}
+.horn > div {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+}
+.horn .lt {
+  border-top: 3px solid #00d3e7;
+  border-left: 3px solid #00d3e7;
+  left: -2px;
+  top: -2px;
+}
+.horn .rt {
+  border-top: 3px solid #00d3e7;
+  border-right: 3px solid #00d3e7;
+  right: -2px;
+  top: -2px;
+}
+.horn .rb {
+  border-bottom: 3px solid #00d3e7;
+  border-right: 3px solid #00d3e7;
+  right: -2px;
+  bottom: -2px;
+}
+.horn .lb {
+  border-bottom: 3px solid #00d3e7;
+  border-left: 3px solid #00d3e7;
+  left: -2px;
+  bottom: -2px;
+}
